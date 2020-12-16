@@ -50,7 +50,37 @@ def addTwoNums(l1, l2):
         result.next = ListNode(v3)
     return topNode.next
 
+def longestSubstring(s):
+    '''
+    Problem: Given a string, find the largest
+    string without repeating characters
+
+    Solution: Sliding window -- if current
+    character hasn't been encountered yet, 
+    increase window. If current char has been
+    encountered and is in the current window,
+    move start of window to avoid it. If it 
+    has not, increase window from the right
+    '''
+    letterLocs = {}
+    start = maxLen = wordLen = index = 0
+    for index in range(len(s)):
+        if s[index] not in letterLocs:
+            wordLen = index-start+1
+            maxLen = max(maxLen, wordLen)
+        else:
+            if letterLocs[s[index]] < start:
+                wordLen = index-start+1
+                maxLen = max(maxLen, wordLen)
+            else:
+                start = letterLocs[s[index]]+1
+        letterLocs[s[index]] = index
+         
+    return maxLen
+
+
 ####################################################################
 
 print(twoSum([1,2,3,4,5],6))
 print(addTwoNums(ListNode(val=2), ListNode(val=2)).val)
+print(longestSubstring("abcabcdd"))
