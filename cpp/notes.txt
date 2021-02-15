@@ -1,0 +1,19 @@
+Object Oriented Programming (OOP)
+Object Oriented Design (OOD)
+Fundamentals of aircraft simulation - NASA specific
+Our simulation framework - NASA specific
+Purify - Memory analysis/debugger
+Klockwork - Code analyzer/debugger
+Rational Rose - UML, visual software development
+Jira - Error tracking
+
+OpenGL - Visualization software
+GLSL - OpenGL shading language 
+Image Processing - NASA specific
+OpenCV - Computer vision
+OpenSceneGraph - Visualization toolkit
+GDAL - Raster/vector geospatial software
+Presagis Creator and OpenFlight Modeling - Simulation
+GIMP - Image manipulation
+CUDA - Parallel computing
+Vulcan - NASA specific
