@@ -2,9 +2,9 @@ Object Oriented Programming (OOP)
 Object Oriented Design (OOD)
 Fundamentals of aircraft simulation - NASA specific
 Our simulation framework - NASA specific
-Purify - Memory analysis/debugger
-Klockwork - Code analyzer/debugger
-Rational Rose - UML, visual software development
+Purify - Memory analysis/debugger, NEED LICENSE
+Klockwork - Code analyzer/debugger, NEED LICENSE
+Rational Rose - UML, visual software development, NEED LICENSE
 Jira - Error tracking
 
 OpenGL - Visualization software
