@@ -21,7 +21,6 @@ vector<int> twoSum(vector<int>& nums, int target){
     return {-1,-1};
 }
 
-
 struct ListNode {
     int val;
     ListNode *next;

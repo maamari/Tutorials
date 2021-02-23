@@ -1,0 +1,2 @@
+g++ triangle.cpp -lGLEW -lGLU -lGL -lglut -lglfw3 -ldl -lX11 -lXxf86vm -lXrandr -lpthread -lXi
+
