@@ -7,7 +7,7 @@ Klockwork - Code analyzer/debugger, NEED LICENSE
 Rational Rose - UML, visual software development, NEED LICENSE
 Jira - Error tracking
 
-*OpenGL - Visualization software
+**OpenGL - Visualization software
 *GLSL - OpenGL shading language 
 Image Processing - NASA specific
 *OpenCV - Computer vision
